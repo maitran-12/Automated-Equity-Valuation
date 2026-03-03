@@ -37,7 +37,9 @@ The integration follows a structured data pipeline to ensure accuracy and automa
 
 ## 📽️ Project Demo
 
-https://github.com/maitran-12/Automated-Equity-Valuation/raw/main/Video%20Project.mp4
+[▶️ Click here to watch the Valuation Model Demo](https://github.com/maitran-12/Automated-Equity-Valuation/raw/main/Video%20Project.mp4)
+
+---
 
 
 
@@ -45,6 +47,7 @@ https://github.com/maitran-12/Automated-Equity-Valuation/raw/main/Video%20Projec
 * The Python script (Fetch_data.py) fetches real-time market data directly from Yahoo Finance.
 * It automatically updates the Risk-free rate via the 10-year Treasury Note (^TNX) and the latest Beta/Market Cap.
 * Why the numbers might vary: If you see a slight difference between the recorded demo and the latest execution (e.g., $321.3 vs $320.5), it is because the model reflects the most current market conditions at the exact moment the script is run.
+
 
 
 
