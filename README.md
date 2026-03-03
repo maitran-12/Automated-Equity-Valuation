@@ -35,15 +35,19 @@ The integration follows a structured data pipeline to ensure accuracy and automa
 
 3. Open the Excel file and use the **Scenario Buttons** to analyze different valuation outcomes.
 
-## DEMO
+## 📽️ Project Demo
 <div align="center">
-<video src="https://github.com/maitran-12/Automated-Equity-Valuation/raw/c1fc05bbdba97109d4a81c201d1691f22236acf9/Video%20Project.mp4" width="100%" controls></video>
+  <video src="https://github.com/maitran-12/Automated-Equity-Valuation/raw/f13f61d008c77706ae8b34d222335417e369ccef/Video%20Project.mp4" width="100%" controls>
+    Your browser does not support the video tag.
+  </video>
+  <p><i>Video demo: Python tự động lấy dữ liệu từ Yahoo Finance và đổ vào Excel qua xlwings.</i></p>
 </div>
 
 ## !NOTE
 * The Python script (Fetch_data.py) fetches real-time market data directly from Yahoo Finance.
 * It automatically updates the Risk-free rate via the 10-year Treasury Note (^TNX) and the latest Beta/Market Cap.
 * Why the numbers might vary: If you see a slight difference between the recorded demo and the latest execution (e.g., $321.3 vs $320.5), it is because the model reflects the most current market conditions at the exact moment the script is run.
+
 
 
 
