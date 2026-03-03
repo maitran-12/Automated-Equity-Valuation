@@ -20,13 +20,13 @@ This project is an automated financial decision-making tool. It bridges the gap 
 ## ⚙️ System Workflow
 The integration follows a structured data pipeline to ensure accuracy and automation:
 
-1. **Data Acquisition (Python):** - Uses `yfinance` to fetch TTM (Trailing Twelve Months) financials and historical data.
+1. **Data Acquisition (Python):** Uses `yfinance` to fetch TTM (Trailing Twelve Months) financials and historical data.
    - Retrieves real-time Market Cap, Beta, and Risk-Free Rate (10Y Treasury).
-2. **Data Processing & Bridge:** - Cleans raw API data using `Pandas`.
+2. **Data Processing & Bridge:** Cleans raw API data using `Pandas`.
    - Uses `xlwings` to push structured data into the `Data_dump` sheet without manual copy-pasting.
-3. **Valuation Engine (Excel):** - Formulas link `Data_dump` to the DCF model.
+3. **Valuation Engine (Excel):** Formulas link `Data_dump` to the DCF model.
    - Calculates WACC, Free Cash Flow projections, and Terminal Value.
-4. **Interactive UI (VBA):** - User triggers "Scenario Buttons" on the Dashboard.
+4. **Interactive UI (VBA):** User triggers "Scenario Buttons" on the Dashboard.
    - VBA updates assumptions and re-calculates the Intrinsic Value instantly.
 
 ## 📖 How to run
@@ -34,3 +34,4 @@ The integration follows a structured data pipeline to ensure accuracy and automa
 2. Run `Fetch_data.py` to refresh all financial data.
 
 3. Open the Excel file and use the **Scenario Buttons** to analyze different valuation outcomes.
+
