@@ -62,6 +62,7 @@ The integration follows a structured data pipeline to ensure accuracy and automa
 
 
 
+`Developed by Ngoc Mai Tran, to turn raw market data into actionable investment insights.`
 
 
 
