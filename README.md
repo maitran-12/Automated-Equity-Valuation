@@ -4,18 +4,18 @@
 This project is an automated financial decision-making tool. It bridges the gap between raw market data and actionable valuation insights by combining Python's data processing power with Excel's flexibility through VBA.
 
 ## 🛠️ Tech Stack
-- [cite_start]**Data engineering:** Python (`yfinance`, `xlwings`, `pandas`).
+- **Data engineering:** Python (`yfinance`, `xlwings`, `pandas`).
 - **Financial Modeling:** MS Excel (Advanced DCF, 3-Statement Linking).
-- [cite_start]**Automation:** VBA (Visual Basic for Applications) for Scenario management.
+- **Automation:** VBA (Visual Basic for Applications) for Scenario management.
 
 ## 💡 Key Features
-- [cite_start]**Real-time Data updated:** Automatically fetches 3-year historical financials, Beta, and Risk-free rates directly into the model[cite: 1, 2].
+- **Real-time Data updated:** Automatically fetches 3-year historical financials, Beta, and Risk-free rates directly into the model.
 - **Dynamic Scenario calculation:** Built custom VBA macros to toggle between **Bull, Base, and Bear** cases. The UI automatically updates font colors and recalculates the intrinsic value instantly.
 - **WACC stress testing:** Includes a WACC adjustment toggle to simulate market volatility in each scenario.
 
 ## 📁 Project Structure
-- [cite_start]`Fetch_data.py`: Connects to API, cleans data, and dumps into Excel.
-- [cite_start]`Valuation_model.xlsm`: The core engine containing the DCF logic and VBA UI.
+- `Fetch_data.py`: Connects to API, cleans data, and dumps into Excel.
+- `Valuation_model.xlsm`: The core engine containing the DCF logic and VBA UI.
 
 ## ⚙️ System Workflow
 The integration follows a structured data pipeline to ensure accuracy and automation:
@@ -31,5 +31,6 @@ The integration follows a structured data pipeline to ensure accuracy and automa
 
 ## 📖 How to run
 1. Ensure the ticker is entered in the `Ticker_input` range on the Dashboard.
-2. [cite_start]Run `Fetch_data.py` to refresh all financial data.
+2. Run `Fetch_data.py` to refresh all financial data.
+
 3. Open the Excel file and use the **Scenario Buttons** to analyze different valuation outcomes.
